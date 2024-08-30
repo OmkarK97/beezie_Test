@@ -1,8 +1,10 @@
+import Layout from "./components/Layout"
+
 function App() {
 
   return (
-   <div>
-    Hello
+   <div className="h-screen w-screen bg-customDark">
+    <Layout />
    </div>
   )
 }
