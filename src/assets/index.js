@@ -6,6 +6,14 @@ import profile from './profile.png';
 import globe from './globe.svg';
 import tiktok from './tiktok.svg';
 import twitter from './twitter.svg';
+import img1 from './1img.svg';
+import img2 from './2img.svg';
+import img3 from './3img.svg';
+import img4 from './4img.svg';
+import img5 from './5img.svg';
+import settings from './settings.svg';
+import arrow from './arrow.svg';
+import search from './search.svg';
 
 export {
     logo,
@@ -15,5 +23,13 @@ export {
     profile,
     globe,
     tiktok,
-    twitter
+    twitter,
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    settings,
+    arrow,
+    search
 }

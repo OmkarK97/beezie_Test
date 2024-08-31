@@ -3,7 +3,7 @@ import { hero_items } from '../data'
 
 const Hero = () => {
   return (
-    <div className='relative h-[556px] w-screen'>
+    <div className='relative h-[166px] md:h-[556px] w-screen'>
     <div className='w-full mt-[1px]'>
         <img src={bg_hero} alt='bg_hero' className='h-[140px] w-full md:h-[290px] object-cover' />
     </div>
