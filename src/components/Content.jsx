@@ -20,7 +20,7 @@ const Content = () => {
     }, []);
     return (
         <div className='h-screen w-screen bg-customDark mt-36 px-5 md:mt-8 md:px-20 text-white'>
-            <div className='h-[69px] w-[400px] md:h-[90px] md:w-full justify-between flex gap-2 border-b-[1px] border-[#302E2E]'>
+            <div className='h-[69px] w-screen md:h-[90px] md:w-full justify-between flex gap-2 border-b-[1px] border-[#302E2E]'>
                 <div className='h-[37px] w-[402px] md:h-[58px] md:w-[605px] flex'>
                     {navItems.map((item, index) => (
                         <button
@@ -78,7 +78,7 @@ const Content = () => {
             </div>
             <div className='md:hidden flex flex-col w-full h-screen gap-8'>
                 <div>
-                    <div className='flex justify-between mt-6 gap-2 items-center w-[400px] h-10'>
+                    <div className='flex justify-between mt-6 gap-2 items-center w-screen px-6 h-10'>
                         <div className='flex justify-center items-center w-14 bg-[#302E2E] rounded-md h-10'>
                             <img src={settings} alt='settings' className='border-2 border-[#302E2E]' />
                         </div>
@@ -87,9 +87,9 @@ const Content = () => {
                         </button>
                     </div>
                 </div>
-                <div className='w-[400px] h-screen mt-6 mx-10 grid grid-cols-1'>
+                <div className='w-screen h-screen mt-6 mx-5 grid grid-cols-1 justify-center items-center'>
                     {nft_items.map((item) => (
-                        <div key={item.id} className='h-[400px] w-[308px] border-2 border-[#302E2E] mb-6 rounded-[10px]'>
+                        <div key={item.id} className='h-[400px] w-[300px] border-2 border-[#302E2E] mb-6 rounded-[10px]'>
                             <div>
                                 <img src={item.img} alt='nft_img' className='h-[300px] w-[308px] rounded-[10px]' />
                             </div>

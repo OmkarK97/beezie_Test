@@ -4,7 +4,7 @@ import { nav_items } from '../data'
 
 const Navbar = () => {
     return (
-        <div className='h-[70px] border-b-[1px] border-[#525252] md:border-none md:h-32 w-full flex justify-between items-center px-5 md:px-10'>
+        <div className='h-[70px] border-b-[1px] border-[#525252] md:border-none md:h-32 w-screen flex justify-between items-center px-5 md:px-10'>
             <div className='hidden md:block md:w-36'>
                 <img src={logo} alt='logo' />
             </div>
