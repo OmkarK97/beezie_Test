@@ -36,7 +36,7 @@ const Content = () => {
                 </button>
             </div>
             <div className='hidden md:flex w-full h-screen gap-8'>
-                <div className='w-[274px] h-[304px] pt-4 pr-0 pb-4 pl-4 mt-8 border-2 border-[#302E2E] rounded-xl'>
+                <div className='w-fit h-[304px] py-4 px-4 mt-8 border-2 border-[#302E2E] rounded-xl'>
                     <div className='flex justify-center gap-2 items-center'>
                         <img src={settings} alt='settings' className='w-6' />
                         <span className='font-karla font-bold text-xl'>Filters</span>
@@ -54,12 +54,12 @@ const Content = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className='flex items-center w-[1036px] px-5 gap-3 h-11 border-2 border-[#302E2E] mt-8 rounded-lg'>
-                        <img src={search} alt='search' className='w-5 flex items-center' />
+                <div className='flex flex-col w-full'>
+                    <div className='flex items-center w-full px-5 gap-3 border-2 border-[#302E2E] mt-8 rounded-lg'>
+                        <img src={search} alt='search' className='w-5 h-11 flex items-center' />
                         <span className='text-[#9C9C9C] font-karla font-bold text-base' >Search by item name, serial number, grader</span>
                     </div>
-                    <div className='w-[1036px] h-screen mt-6 grid grid-cols-4'>
+                    <div className='w-full h-screen mt-6 grid grid-cols-4'>
                         {nft_items.map((item) => (
                             <div key={item.id} className='h-[328px] w-[235px] border-2 border-[#302E2E] mb-6 rounded-[20px]'>
                                 <div>
@@ -87,7 +87,7 @@ const Content = () => {
                         </button>
                     </div>
                 </div>
-                <div className='w-screen h-screen mt-6 mx-5 grid grid-cols-1 justify-center items-center'>
+                <div className='w-[300px] h-screen mt-6 mx-auto grid grid-cols-1'>
                     {nft_items.map((item) => (
                         <div key={item.id} className='h-[400px] w-[300px] border-2 border-[#302E2E] mb-6 rounded-[10px]'>
                             <div>
